@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <style>
+    body
+    {
+        background: #FFFFFF;
+
+        background: -webkit-linear-gradient(left, #FFFFFF 0%, #2CABFF 25%, #144E75 100%);
+
+    }
+    #header
+    {
+        color: white;
+        font-size: 23pt;
+        text-align: center;
+
+    }
+    #weather
+    {
+        color:black;
+        font-size: 15pt;
+       
+    }
+    #pollution
+    {
+        color:black;
+        font-size: 15pt;
+       
+    }
+    #reccomendation
+    {
+        
+        font-size: 25pt;
+        text-align: center;
+        
+    }
+    #history
+    {
+        
+        font-size: 11pt;
+        text-align: center;
+    }
+    td
+    {
+        background-color: white;
+        padding: 15px;
+        vertical-align: top;
+        text-align: center;
+        box-shadow: 5px 5px 15px 5px #000000;
+    }
+    #tester
+    {
+        background-color: white;
+        padding: 15px;
+        vertical-align: top;
+        text-align: center;
+        box-shadow: 5px 5px 15px 5px #000000;
+    }
+    </style>
+
+<head>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+
+<body style="width:100%">
+        <div id="header"></div>
+        <table align="center" cellspacing="30px">
+             <tr>
+                <td id="weather" style="width:400px"></td>
+                <td id="pollution" style="width:400px"></td>
+             </tr>
+             <tr>
+                <td id="history" style="width:400px"></td>
+                <td id="reccomendation" style="width:400px"></td>
+            </tr>
+        </table>
+        <table align="center" cellspacing="30px">
+             <tr>
+                <td id="tester" style="width:830px;height:250px;"></td>
+            </tr>
+        </table>
+    <script src="/public/main.js"></script>
+    
+
+</body>
+
+</html>
